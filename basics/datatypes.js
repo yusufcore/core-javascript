@@ -46,5 +46,19 @@ function follow(){
 }
 follow()  // calling the Function.
 
+// 8-10 are non primitive data types.
 
 console.log(null === undefined);
+// Coercion --> automatic or explicit conversion of a value from one data type to another.
+
+// Examples of Coercion...
+
+console.log(5 > 3 > 2);
+// first checks --> 5 > 3 = TRUE;
+// Then TRUE > 2;  where value of TRUE is 1 so it 1 > 2 becomes False;
+
+console.log("10" < "9");
+// Js compares Strings using their Unicode Values lexicographically(character by character).
+
+console.log(Infinity > 1000);
+// Infinity --> represents an unbound, +ve number. Greater than any finite number.
