@@ -15,3 +15,8 @@ function loginUserMessage(username){
     return `${username} just logged in`
 }
 console.log(loginUserMessage("John Doe"));
+
+const greet = function(){  // anonymous function
+    return "Yusuf";
+};
+console.log(greet());
